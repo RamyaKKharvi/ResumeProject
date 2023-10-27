@@ -1,0 +1,91 @@
+{% extends 'resume_template/base.html' %}
+{% block content %}
+
+<div class="container">
+    <h1 class="mt-5 mx-5">Projects</h1>
+    <hr>
+    <div class="mt-5 px-2 line-spacing text-justify">
+        <div class="row">
+             <div class="col-6">
+                <ul>
+                    <li>
+                        <p><b>Club Management: </b>Created CRUD project to create, retrieve, update and delete club members.
+                            Members model is created that will query PostgreSQL and retrieve the member data.<br>
+                            <a href="https://github.com/RamyaKKharvi/DjangoApiProject/tree/master/ClubManagement" target="_blank">
+                            <u>project github link</u></a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-6">
+                <ul>
+                    <li>
+                        <p><b>Resume Project </b>Created my resume web page using django framework, HTML templates, and CSS styles.<br>
+                            <a href="https://github.com/RamyaKKharvi/ResumeProject.git" target="_blank">
+                            <u>project github link</u></a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <ul>
+                    <li>
+                        <p><b>Student Api Project: </b>Created a django project to create students details.
+                            URLs were generated that will hit the given API endpoint & store the data received from the response to a Postgres table.
+                            Based on the retrieved data student details is created which can be further updated or deleted.<br>
+                            <a href="https://github.com/RamyaKKharvi/StudentApiProject/tree/master/StudentDetails" target="_blank">
+                            <u>project github link</u></a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+           <div class="col-6">
+                <ul>
+                    <li>
+                        <p><b>Salary Slip Generator: </b>Created script that will query PostgreSQL and retrieved
+                            the employee data. Based on the retrieved data, salary slip template is populated with employee and
+                            salary details and saved in a specified folder.<br>
+                            <a href="https://github.com/RamyaKKharvi/python_projects/tree/master/salary_slip_generator" target="_blank">
+                            <u>project github link</u></a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <ul>
+                    <li>
+                        <p><b>API Data to Excel: </b>Created a script to fetch data from the API endpoint based on the retrieved data,
+                            to create an Excel file and store the data in it.<br>
+                            <a href="https://github.com/RamyaKKharvi/python_projects/tree/master/api_data_to_excel" target="_blank">
+                            <u>project github link</u></a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-6">
+                <ul>
+                    <li>
+                        <p><b>API Data to Postgres: </b>Created a script that will hit the given API endpoint &
+                            store the data received from the response to a Postgres table.<br>
+                            <a href="https://github.com/RamyaKKharvi/python_projects/tree/master/python_postgres_project" target="_blank">
+                            <u>project github link</u></a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+{% endblock content %}

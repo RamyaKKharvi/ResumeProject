@@ -1,0 +1,20 @@
+{% load static %}
+<div class="border-right border-success h-100 sidebar-color">
+    <div class="text-center">
+        <a href="/myresume/home"><img src="{% static 'images/Ramya_pic1.jpg' %}" alt="profile" class="img-thumbnail rounded-circle mt-5"
+             height="80px" width="80px">
+        <h6 class="mt-3">Ramya K Kharvi</h6>
+        <hr></a>
+        <nav class="nav flex-column text-center mt-5">
+            <a href="{% url 'home' %}" class="nav-link {{home}}">About</a>
+            <a href="{% url 'education' %}" class="nav-link {{education}}">Education</a>
+            <a href="{% url 'skills' %}" class="nav-link {{skills}}">Skills</a>
+            <a href="{% url 'project' %}" class="nav-link {{project}}">Projects</a>
+            <a href="{% url 'certificate' %}" class="nav-link {{certificate}}">Certificate</a>
+            <div class="mt-5 my-5">
+                <a href="{% url 'contact' %}" class="btn btn-outline-success w-75 font-weight-bold {{contact}}">Hire Me</a>
+            </div>
+        </nav>
+
+    </div>
+</div>

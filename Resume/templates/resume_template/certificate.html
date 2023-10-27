@@ -1,0 +1,19 @@
+{% extends 'resume_template/base.html' %}
+{% block content %}
+{% load static %}
+
+<div class="container">
+    <h1 class="mt-5 mx-5">Certificates</h1>
+    <hr>
+    <div class="px-2 text-justify mt-5">
+        <ul>
+            <li class="mb-4"><a href="{% static 'certificate/udemy_python.pdf' %}" class="line-spacing" target="_blank">
+                <u>The Complete Python Bootcamp from Zero to Hero in Python</u></a>
+            </li>
+        </ul>
+
+    </div>
+
+</div>
+
+{% endblock content %}
